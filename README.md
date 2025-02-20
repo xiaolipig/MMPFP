@@ -1,6 +1,6 @@
 # **MMPFP**
 
-- Our work and code are mainly inspired by and reference the following research:
+- Our work and code are mainly inspired by and reference the following research (partial):
   - [Zhu et al., 2024](https://academic.oup.com/bioinformatics/article/40/10/btae571/7766190?searchresult=1)
   - [TAWFN](https://academic.oup.com/bioinformatics/article/40/10/btae571/7766190?searchresult=1)
   - [MDPI article](https://www.mdpi.com/2218-273X/12/11/1709)
@@ -24,7 +24,7 @@ The required Python version is **Python 3.8**.
 
 ## **Requirements**
 
-Below is a list of the primary requirements for the project (partial):
+Below is a list of the primary requirements for the project :
 
 - **mindspore** == 2.0.0rc1
 - **numpy** == 1.22.3
