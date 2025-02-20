@@ -24,7 +24,7 @@ The required Python version is **Python 3.8**.
 
 ## **Requirements**
 
-Below is a list of the primary requirements for the project(partial):
+Below is a list of the primary requirements for the project (partial):
 
 - **mindspore** == 2.0.0rc1
 - **numpy** == 1.22.3
