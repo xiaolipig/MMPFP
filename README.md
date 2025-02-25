@@ -41,7 +41,7 @@ For installing **MindSpore**, please visit [MindSpore official website](https://
 
 
 
-Alternatively, you can download and use our pre-configured Docker image for an easy setup. To download the image, please visit the following [here]([https://pan.baidu.com/s/1hXogeRqStzoE5GLkoVql5Q?pwd=k3ij](https://pan.baidu.com/s/1XCvvOIWuTv3TpxxnpM0KaA?pwd=yeu7) (code is yeu7).and follow the instructions for downloading the Docker image to your local machine.
+Alternatively, you can download and use our pre-configured Docker image for an easy setup. To download the image, please visit the following [here]([https://pan.baidu.com/s/1XCvvOIWuTv3TpxxnpM0KaA?pwd=yeu7]) (code is yeu7).and follow the instructions for downloading the Docker image to your local machine.
 
 
 
