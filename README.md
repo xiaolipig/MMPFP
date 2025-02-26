@@ -43,7 +43,11 @@ For installing **MindSpore**, please visit [MindSpore official website](https://
 
 Alternatively, you can download and use our pre-configured Docker image for an easy setup. To download the image, please visit the following [here](https://pan.baidu.com/s/1XCvvOIWuTv3TpxxnpM0KaA?pwd=yeu7) (code is yeu7).and follow the instructions for downloading the Docker image to your local machine.
 
-
+Environment Compatibility Notice:
+The Docker image encapsulates our extensive refactoring work (PyTorch→MindSpore) for maximum portability. Current version guarantees stability on NVIDIA GPUs. For Ascend 910B deployment:
+• Immediate use requires manual CANN 6.0.0 configuration via conda
+• Optimized Ascend image will be released in subsequent versions
+Contact us prior to any secondary development or commercial application.
 
 
 
@@ -56,3 +60,5 @@ python test.py --batch_size 32 --device_target GPU --ckpt_path ./checkpoints/bes
 ```
 
 The training script follows a similar pattern to the testing script. You can adjust the parameters such as batch size, learning rate, and the path for the dataset or checkpoint in the training script to fit your needs. The key difference is that the training script will involve training your model, while the test script will perform inference with an already trained model.
+
+
