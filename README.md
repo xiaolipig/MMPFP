@@ -41,7 +41,7 @@ For installing **MindSpore**, please visit [MindSpore official website](https://
 
 
 
-Alternatively, you can download and use our pre-configured Docker image for an easy setup. To download the image, please visit the following [here](https://pan.baidu.com/s/1Dh2iWQiRKfMRTAc9G1ahsA?pwd=kpjd) (code is kpjd).- Note: The download link is valid for 7 days. We will continuously update the links periodically, or you may contact the corresponding author directly to obtain the latest version and follow the instructions for downloading the Docker image to your local machine.
+Alternatively, you can download and use our pre-configured Docker image for an easy setup. To download the image, please visit the following [here](https://pan.baidu.com/s/1myPNbMzN7WXDf2h_lW23eg?pwd=fzwk) (code is fzwk).- Note: The download link is valid for 7 days. We will continuously update the links periodically, or you may contact the corresponding author directly to obtain the latest version and follow the instructions for downloading the Docker image to your local machine.
 
 Environment Compatibility Notice:
 The Docker image encapsulates our extensive refactoring work (PyTorch→MindSpore) for maximum portability. Current version guarantees stability on NVIDIA GPUs. For Ascend 910B deployment:
