@@ -48,7 +48,7 @@ The Docker image encapsulates our extensive refactoring work (PyTorch→MindSpor
 • Immediate use requires manual CANN 6.0.0 configuration via conda
 • Optimized Ascend image will be released in subsequent versions
 Contact us prior to any secondary development or commercial application.
-
+If users encounter difficulties reproducing the results in the Ascend or MindSpore environment, they may contact us via email. We will provide implementation guidance, model concepts, and structural insights based on PyTorch or TensorFlow frameworks.
 
 
 ### How to Test the Model:
