@@ -11,7 +11,7 @@ class RepVGGBlock1D(nn.Module):
         super(RepVGGBlock1D, self).__init__()
         self.deploy = deploy
         kernel_size = 3
-        # 为了与原模型保持一致（原来 kernel_size=3, padding=0）
+       
         padding = 0
 
         if deploy:
@@ -21,7 +21,7 @@ class RepVGGBlock1D(nn.Module):
                                          padding=padding,
                                          bias=True)
         else:
-            # 训练模式下使用三个分支：3x3、1x1 和（如果可能）恒等映射
+            
             self.rbr_conv = nn.Sequential(
                 nn.Conv1d(in_channels, out_channels, kernel_size=kernel_size,
                           stride=stride, padding=padding, bias=False),
